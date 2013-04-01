@@ -98,9 +98,13 @@ body {
   background-size: cover;
   width: 300px;
   height: 400px;
-  /* overcoming 5% margin set at .wrapper */
-  margin-right: -7%;
   margin-bottom: -20px;
+  
+  /* TO DO: 
+  need a way to overcome 5% margin set at .wrapper 
+  but margin-right: -7% causes the <body> bgcolor to appear
+  perhaps can use translate3d to nudge over, or positioning */
+  
     
   -webkit-animation: rock 2s infinite ease-in-out alternate;
 }
