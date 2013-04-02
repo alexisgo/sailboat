@@ -99,7 +99,7 @@ body {
   width: 300px;
   height: 400px;
   margin-bottom: -20px;
-  
+    
   /* TO DO: 
   need a way to overcome 5% margin set at .wrapper 
   but margin-right: -7% causes the <body> bgcolor to appear
@@ -237,7 +237,7 @@ nav a:hover {
 
    position:relative; 
    top: -26.608px;
-   left: 50px;
+   left: -70px;
    
    background-position: -24% 100%;
  }
